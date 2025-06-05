@@ -1,0 +1,42 @@
+{
+  "name": "finance-app-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "5.25.4",
+    "axios": "1.9.0",
+    "clsx": "2.1.1",
+    "dayjs": "1.11.13",
+    "effector": "23.3.0",
+    "effector-react": "^23.3.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-router-dom": "7.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.28.0",
+    "@types/react": "19.1.6",
+    "@types/react-dom": "19.1.6",
+    "@vitejs/plugin-react": "4.5.1",
+    "eslint": "9.28.0",
+    "eslint-config-prettier": "10.1.5",
+    "eslint-plugin-effector": "0.15.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.2.0",
+    "eslint-plugin-react-refresh": "0.4.20",
+    "globals": "16.2.0",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.33.1",
+    "vite": "6.3.5",
+    "vite-tsconfig-paths": "5.1.4"
+  }
+}
